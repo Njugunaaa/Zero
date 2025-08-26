@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import logo from "../assets/logo.svg";
+import logo from "../assets/014.png";
 import { Search, X, Menu } from "lucide-react";
 
 function Nav() {
