@@ -145,9 +145,9 @@ const Hero = () => {
   ];
 
   const testimonials = [
-    { text: 'This feels like home! The music, the energy—absolutely perfect. Coming back next weekend.', author: 'Sharon M., Karen', rating: 5 },
-    { text: 'Best cocktails in town. The DJ lineup is always on fire and the crowd is awesome!', author: 'Mike O., Kilimani', rating: 5 },
-    { text: 'Ideal spot for after-work hangouts. Great atmosphere and super friendly staff!', author: 'Grace K., CBD', rating: 5 },
+    { text: 'This feels like home! The music, the energy—absolutely perfect. Coming back next weekend.', author: 'Sharon', rating: 5 },
+    { text: 'Best cocktails in town. The DJ lineup is always on fire and the crowd is awesome!', author: 'Mike ', rating: 5 },
+    { text: 'Ideal spot for after-work hangouts. Great atmosphere and super friendly staff!', author: 'Grace', rating: 5 },
   ];
 
   const nextSlide = () => setCurrentImageIndex((i) => (i + 1) % revelerGallery.length);
