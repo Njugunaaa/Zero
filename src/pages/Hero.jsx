@@ -406,43 +406,13 @@ const Hero = () => {
       {/* Featured Mix */}
       <section className="py-20 bg-gradient-to-r from-gray-900 via-black to-gray-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Reveal>
-  <YouTubeMixComponent 
-    videoUrl="https://www.youtube.com/watch?v=4nzcodYeh-Q&pp=ygUMIDAxNCBsb3VuZ2Ug"
-    title="Mix of the Week"
-    highlightWord="Week"
-    showBackground={false}
-    containerClassName="w-full"
-    className="transition-all duration-500 hover:scale-105"
-  />
-</Reveal>
+          <YouTubeMixComponent 
+            videoUrl="https://www.youtube.com/watch?v=4nzcodYeh-Q&pp=ygUMIDAxNCBsb3VuZ2Ug"
+            title="Mix of the Week"
+            highlightWord="Week"
+            containerClassName="w-full"
+          />
 
-          <Reveal className="bg-gradient-to-b from-gray-800 to-black p-10 rounded-2xl shadow-2xl border border-amber-500/20 mb-8" delay={100}>
-            <div className="flex items-center justify-center mb-8">
-              <div className="bg-gradient-to-r from-amber-500 to-orange-600 p-6 rounded-full shadow-xl">
-                <Play className="w-10 h-10 text-white" />
-              </div>
-            </div>
-            <h3 className="text-2xl font-bold mb-3 text-white">DJ Set — Midnight Sessions</h3>
-            <p className="text-gray-300 mb-8 text-lg">Turn up your speakers and relive last Friday's energy.</p>
-
-            <div className="bg-gray-700 rounded-full p-6 shadow-inner">
-              <div className="flex items-center justify-between mb-3 text-gray-300">
-                <span>0:00</span>
-                <span className="text-amber-400 font-semibold">LIVE</span>
-                <span>65:24</span>
-              </div>
-              <div className="bg-gray-600 h-3 rounded-full overflow-hidden">
-                <div className="bg-gradient-to-r from-amber-400 to-orange-500 h-full rounded-full w-2/5 shadow-lg"></div>
-              </div>
-            </div>
-          </Reveal>
-
-          <Reveal delay={150}>
-            <button className="bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white px-10 py-4 rounded-xl font-bold text-lg transition-all duration-200 shadow-xl transform hover:scale-105">
-              Listen More Mixes
-            </button>
-          </Reveal>
         </div>
       </section>
 
