@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import YouTubeMixComponent from '../components/YoutubeMixComponent';
 import rev1 from '../assets/rev1.jpg';
 import rev2 from '../assets/rev2.jpg';
 import rev3 from '../assets/rev3.jpg';
@@ -406,10 +407,15 @@ const Hero = () => {
       <section className="py-20 bg-gradient-to-r from-gray-900 via-black to-gray-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Reveal>
-            <h2 className="text-3xl md:text-5xl font-bold mb-8 text-white">
-              Mix of the <span className="text-amber-400">Week</span>
-            </h2>
-          </Reveal>
+  <YouTubeMixComponent 
+    videoUrl="https://www.youtube.com/watch?v=4nzcodYeh-Q&pp=ygUMIDAxNCBsb3VuZ2Ug"
+    title="Mix of the Week"
+    highlightWord="Week"
+    showBackground={false}
+    containerClassName="w-full"
+    className="transition-all duration-500 hover:scale-105"
+  />
+</Reveal>
 
           <Reveal className="bg-gradient-to-b from-gray-800 to-black p-10 rounded-2xl shadow-2xl border border-amber-500/20 mb-8" delay={100}>
             <div className="flex items-center justify-center mb-8">
