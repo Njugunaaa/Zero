@@ -118,7 +118,7 @@ const Hero = () => {
     {
       month: 'March 2025',
       items: [
-        { date: 'Mar 15', time: '9:00 PM', title: 'Reggae Night', performer: 'Guest DJ & Live Band', location: 'Main Floor, Westlands' },
+        { date: 'Mar 15', time: '9:00 PM', title: 'Reggae Night', performer: 'Guest DJ & Live Band', location: 'Main Floor, Embu' },
         { date: 'Mar 22', time: '10:00 PM', title: 'Amapiano Vibes', performer: 'Special Guest DJ', location: 'VIP Lounge' },
       ],
     },
